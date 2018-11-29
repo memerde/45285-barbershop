@@ -1,4 +1,4 @@
-body	{
+﻿body {
 	margin:0;
 	padding:0;
 
@@ -41,33 +41,33 @@ a {
 .site-navigation a:hover,
 .site-navigation a:focus,
 .user-navigation a:hover,
-.user-navigation a:focus	{
+.user-navigation a:focus {
 	background-color: red;
 }
 
-.features-list	{
+.features-list {
 	list-style: none;
 }
 
-.feature-item	{
+.feature-item {
 	text-align: center;
 }
 
-.feature-item	h3	{
+.feature-item	h3 {
 	font-size: 30px;
 	line-height: 42px;
 }
 
-.index-column	{
+.index-column {
 	background-position: 0 0; /* Что это? */
 	background-color: #f9f6f3;
 	background-image: url(../img/bg-light-pattern.jpg);
 	background-repeat: repeat;
 
-	color:	#000000;
+	color: #000000;
 }
 
- .index-column	h2	{
+ .index-column	h2 {
  	font-size: 30px;
   line-height: 42px;
  }
