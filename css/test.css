@@ -1,0 +1,26 @@
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  /* Временно для сетки */
+  background-image: url("../img/barbershop-index.jpg");
+  background-size: 1280px contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.main-header {
+
+  margin-bottom: 75px;
+
+  /* Временно для сетки */
+  min-height: 285px;
+}
+
+*.ba

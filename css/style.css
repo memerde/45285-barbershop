@@ -1,23 +1,24 @@
-﻿body {
+
+body {
 	margin:0;
 	padding:0;
 
-	font-family: "pt sans narrow", arial, sans-serif;
-	font-size: 14px; //
+	font-family: "PT Sans narrow", "Arial", sans-serif;
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
 
 	background-color: #000000; 
-  background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 
 }
 
 a {
-	text-decoration:none; /* Отключение подчеркивания ссылок */
+	text-decoration:none; 
 }
 
 .main-navigation {
@@ -30,7 +31,7 @@ a {
 
 .site-navigation,
 .user-navigation	{
-	list-style:none; /* Убрать маркеры списка*/
+	list-style:none; 
 }
 
 .site-navigation a,
@@ -59,7 +60,7 @@ a {
 }
 
 .index-column {
-	background-position: 0 0; /* Что это? */
+	background-position: 0 0;
 	background-color: #f9f6f3;
 	background-image: url(../img/bg-light-pattern.jpg);
 	background-repeat: repeat;
@@ -76,17 +77,17 @@ a {
   list-style: none;
 }
 
-.news-item time { /* Отмена uppercase */
+.news-item time { 
   text-transform: none;
 }
 
-.gallery-content { /* Фон и обводка в галерее*/
+.gallery-content {
   background-color: #cccccc;
   border: 7px solid #ffffff;
 }
 
 .button	{
-	font: inherit; /* Наследование шрифта от родителя */
+	font: inherit; 
 	
 	text-align: center;
 	color: #ffffff;
@@ -97,9 +98,9 @@ a {
 	border:none;
 }
 
-.button:hover, /* порядок должен быть таким чтобы правило сработало*/
+.button:hover, 
 .button:focus,
-.button:active { /* Что это?*/
+.button:active { 
   background-color: #663d15;
 }
 
@@ -194,4 +195,76 @@ a {
 .restore:hover,
 .restore:focus {
   text-decoration: none;
+}
+
+/* --------------------- сетка --------------------- */
+
+
+.main-header {
+  margin-bottom: 75px;
+}
+
+.main-navigation {
+  display:flex;
+  flex-direction: column;
+  background-color:rgba(250, 0, 0, 0.1);
+  align-items: center;
+
+}
+
+.main-header-logo {
+  order:2;
+  background-color:rgba(250, 0, 0, 0.1);
+}
+
+.site-navigation {
+  margin:0px;
+  padding:0px;
+  background-color:rgba(250, 0, 0, 0.1);
+  width:720px;
+}
+
+.user-navigation {
+  margin:0px;
+  padding:0px;
+  width:140px;
+  background-color:rgba(15, 24, 153, 0.1);
+}
+
+ .nav-wrapper {
+  display:flex;
+  justify-content: space-between;
+  width:940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.features-list {
+  display:flex;
+  background-color:rgba(250, 0, 0, 0.1);
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.features-item {
+  width: 300px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto; /* что это */
+  padding: 0 10px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
 }
